@@ -1,0 +1,17 @@
+{
+  "name": "github-release-downloader-task",
+  "version": "0.1.0",
+  "description": "Azure DevOps task to download GitHub releases",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "azure-pipelines-task-lib": "^3.1.10"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "typescript": "^4.3.5"
+  }
+}
